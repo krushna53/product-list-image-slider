@@ -1,0 +1,92 @@
+.inner-container h4{
+    text-align: center;
+}
+.inner-container {
+    width: 350px;
+    height: 550px;
+    border: 2px solid gray;
+    padding-left: 0px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.slideshow {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 350px;
+}
+.slide img {
+     width: 300px;
+     /* height: 280px; */
+    }
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 24px 0;
+    list-style-type: none;
+    }
+.slick-dots li {
+    margin: 0 4px;
+    }
+.slick-dots li button{
+    display: block;
+    width: 40px;
+    height: 3px;
+    padding: 0;
+    border: 1px;
+    border-radius: 7%;
+    background-color: grey;
+    text-indent: -9999px;
+}
+.slick-dots li button:before {
+    font-size: 15px;
+}
+.slick-dots li.slick-active button {
+    background-color: blue;
+    }
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-slider {
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+.Main_container {
+    display: inline-flex;
+}
+.slick-dotted.slick-slider {
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin: 22px;
+     overflow: hidden;
+} 
+/* price section */
+.inner-box h6{
+    margin-left: 137px;
+}
+/* custom slider Add to cart button css by HR */
+/* .slider_cart_btn {background-image: linear-gradient(to right, #b8a2c3 0%, #e3212e  51%, #ca88eb  100%)} */
+.slider_cart_btn {
+   margin-left: 110px;
+   padding: 4px 16px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   background-color: #7C2424;
+ }
+
+ .slider_cart_btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ .slider_cart_btn a {
+     color: white;
+ }
